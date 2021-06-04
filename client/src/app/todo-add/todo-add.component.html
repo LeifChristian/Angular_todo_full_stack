@@ -1,0 +1,29 @@
+<div class='form-group'>
+    
+    <!-- <h2>Add a Todo</h2> -->
+    
+    <p class='addTodo'>
+    Name: <input class="form-control" [(ngModel)]="newTodo.name">
+
+    Info: <input class="form-control" [(ngModel)]="newTodo.info">
+
+    Due: <input class="form-control" [(ngModel)]="newTodo.due">
+
+    Items Needed: <input class="form-control" [(ngModel)]="newTodo.itemsNeeded">
+    <br>
+    
+    <button class='btn btn-primary' (click)="addTodo()">Add</button></p></div>
+
+
+
+
+
+
+<!-- <script>
+
+document.addEventListener('keypress', function(event) {
+
+    if (event.keyCode == 13) { addTodo()
+    }});
+</script> -->
+

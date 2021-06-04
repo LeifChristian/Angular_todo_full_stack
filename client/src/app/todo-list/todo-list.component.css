@@ -1,0 +1,23 @@
+
+li {
+    margin: 4px;
+}
+
+button {
+ margin: 4px;
+
+} 
+
+button:hover {
+    margin: 4px;
+   background-color: red;
+   } 
+
+   a {
+       text-decoration: none;
+       font-size: .8em;
+   }
+
+   a:hover {
+       color: white;
+   }

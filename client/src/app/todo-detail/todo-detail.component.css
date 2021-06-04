@@ -1,0 +1,21 @@
+h3
+{
+text-align: center;
+color: black;
+
+font-size: 1.4em;
+}
+
+* {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

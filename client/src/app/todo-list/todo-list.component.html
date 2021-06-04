@@ -1,0 +1,26 @@
+<h2>
+  <ul>
+    <li *ngFor="let todo of todos"> <a [routerLink] = "['/details', todo.id]"> {{todo.name}} </a>
+      <button class='btn btn-primary' (click)="deleteTodo(todo.id)">x</button>
+      <a [routerLink]="['/edit', todo.id]"><button class='btn btn-primary'>Edit</button></a>
+    </li>
+  </ul>
+</h2> 
+
+
+<!-- new code <ul>
+    <li *ngFor = "let todo of todo">
+        <a [routerLink] = "['/details', todo.id]"> {{todo.name}} </a>
+        <button>x</button>
+    </li>
+    </ul> -->
+
+<!-- original code
+    <h2>Todo List
+        <ul>
+          <li *ngFor="let todo of todos">{{todo.name}}
+            <button (click)="deleteTodo(todo.id)">x</button>
+            <a [routerLink]="['/edit', todo.id]"><button>Edit</button></a>
+          </li>
+        </ul>
+      </h2>  -->

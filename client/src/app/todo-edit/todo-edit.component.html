@@ -1,0 +1,12 @@
+<!-- <h2>Todo Edit</h2> -->
+
+<div class='form-group'>
+Name: <input class="form-control" [(ngModel)]="editTodo.name">
+
+Info: <input class="form-control" [(ngModel)]="editTodo.info">
+
+Due: <input class="form-control" [(ngModel)]="editTodo.due">
+
+Items Needed: <input class="form-control" [(ngModel)]="editTodo.itemsNeeded">
+
+<button class='btn btn-primary' (click)="saveTodo()">Save</button></div>

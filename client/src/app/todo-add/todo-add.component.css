@@ -1,0 +1,17 @@
+* {
+    /* background-color: lightgray; */
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.input {
+    background-color: antiquewhite;
+}
+
+
+p {
+    font-weight: 600;
+}

@@ -1,0 +1,57 @@
+html {
+
+  background-image: url(./assets/background.jpeg);
+  /* border: dotted 3px black; */
+  border-radius: 2em;
+  max-width: 40%;
+  max-height: 40%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+
+body {
+
+  background-color: rgb(155, 153, 153);
+  border-radius: 2em;
+  border: 2px dashed black;
+  margin-top: 20%;
+  opacity: 90%;
+}
+
+/* .main {
+
+    margin: 1%;
+     padding: 2%;
+     border: dashed 2px black;
+     border-radius: 2em;
+     
+ } */
+ 
+ ul {
+     list-style-type: none;
+     margin: 2px;
+     padding: 2px;
+   }
+
+   li {
+    margin: 2px;
+    padding: 2px;
+   }
+
+   a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+
+  input {
+    max-width: 50%;
+ margin-right: auto;
+ margin-left: auto;
+  }
