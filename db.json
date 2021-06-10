@@ -1,5 +1,14 @@
 {
   "todos": [
+
+
+    {
+      "name": "be cool",
+      "info": "ok",
+      "due": "1 ",
+      "itemsNeeded": "2 ",
+      "id": 1
+    },
     {
       "name": "make stuff",
       "info": "do",
@@ -14,5 +23,6 @@
       "itemsNeeded": "4",
       "id": 3
     }
+    
   ]
 }

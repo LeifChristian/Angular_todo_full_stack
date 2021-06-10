@@ -7,11 +7,12 @@
 
 }
 
-.input {
-    background-color: antiquewhite;
-}
 
 
 p {
     font-weight: 600;
+}
+
+#addForm input{
+max-width: 38%;
 }

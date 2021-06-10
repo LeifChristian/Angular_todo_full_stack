@@ -12,4 +12,12 @@
     align-content: center;
     align-items: center;
     text-align: center;
+    max-width: 10%;
 }
+
+#editForm input{
+    max-width: 38%;
+    }
+    
+
+    
